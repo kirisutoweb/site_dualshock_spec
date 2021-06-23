@@ -1,0 +1,143 @@
+* {
+	overflow: auto;
+}
+
+body {
+	background-color: #006c82c0;
+	font-family: "DM Sans", sans-serif;
+	font-weight: 400;
+	line-height: 1.5rem;
+}
+
+p.devicetype {
+	background-color: #000507;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 15px;
+	margin: -20px 10px 0 10px;
+	font-weight: bold;
+	font-size: 1.05rem;
+}
+
+div.devicetype {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	overflow: visible;
+}
+.container {
+	background-color: #fff;
+	margin: 70px 10% 70px 10%;
+	padding: 0 30px 30px 30px;
+	min-width: 380px;
+	border: 1px solid;
+	box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.1);
+	overflow: visible;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+p.description {
+	display: inline-block;
+	max-width: 400px;
+}
+.centre {
+	text-align: center;
+	width: 100%;
+}
+
+div.separateur {
+	height: 1px;
+	width: 200px;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.specs {
+	display: block;
+	max-height: 600px;
+	min-height: 400px;
+	background-color: lightcyan;
+	object-fit: cover;
+}
+
+table.specs {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	background-color: #007d96c0;
+	height: 80px;
+	overflow: auto;
+}
+div.specs {
+	position: relative;
+}
+
+table.specs td {
+	font-size: 14px;
+	vertical-align: top;
+}
+
+table.specs th {
+	vertical-align: bottom;
+}
+
+.overview {
+	display: inline-block;
+}
+
+.keyspecs {
+	float: right;
+}
+
+.keyspectable .number {
+	background-color: #006c82;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 0.8rem;
+	box-sizing: border-box;
+	padding-top: 4px;
+	border-radius: 50%;
+	margin: 10px 0;
+}
+.keyspectable td {
+	font-size: 0.8rem;
+}
+
+.keyspectable tr {
+	margin-top: 0px;
+}
+.column {
+	width: 45%;
+}
+.column ul {
+	list-style: none;
+	text-align: center;
+	font-size: 0.8rem;
+	padding-left: 0;
+}
+
+.column li {
+	border: 1px solid lightgray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+
+.column h2 {
+	border-bottom: 5px solid #007d96;
+	border-spacing: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	margin-top: 40px;
+	padding-bottom: 7px;
+}

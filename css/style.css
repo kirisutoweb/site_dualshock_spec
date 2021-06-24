@@ -26,9 +26,8 @@ div.devicetype {
 }
 .container {
 	background-color: #fff;
-	margin: 70px 10% 70px 10%;
-	padding: 0 30px 30px 30px;
-	min-width: 380px;
+	margin: 30px 5px 30px 5px;
+	padding: 0 7px 20px 7px;
 	border: 1px solid;
 	box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.1);
 	overflow: visible;
@@ -59,10 +58,14 @@ div.separateur {
 
 img.specs {
 	display: block;
-	max-height: 600px;
-	min-height: 400px;
+	max-height: 500px;
+	min-height: 350px;
 	background-color: lightcyan;
 	object-fit: cover;
+}
+
+div.specs {
+	position: relative;
 }
 
 table.specs {
@@ -72,20 +75,18 @@ table.specs {
 	color: #fff;
 	text-align: center;
 	background-color: #007d96c0;
-	height: 80px;
+	height: 50px;
 	overflow: auto;
-}
-div.specs {
-	position: relative;
 }
 
 table.specs td {
-	font-size: 14px;
+	font-size: 0.75rem;
 	vertical-align: top;
 }
 
 table.specs th {
 	vertical-align: bottom;
+	font-size: 0.87rem;
 }
 
 .overview {
@@ -116,12 +117,12 @@ table.specs th {
 	margin-top: 0px;
 }
 .column {
-	width: 45%;
+	width: 100%;
 }
 .column ul {
 	list-style: none;
 	text-align: center;
-	font-size: 0.8rem;
+	font-size: 0.87rem;
 	padding-left: 0;
 }
 
@@ -140,4 +141,46 @@ table.specs th {
 	font-size: 0.9rem;
 	margin-top: 40px;
 	padding-bottom: 7px;
+}
+
+/* Styles for Desktop */
+@media only screen and (min-width: 768px) {
+	.container {
+		min-width: 350px;
+		margin: 70px 10% 70px 10%;
+		padding: 0 30px 30px 30px;
+	}
+
+	table.specs {
+		height: 80px;
+	}
+	table.specs td {
+		font-size: 0.87rem;
+	}
+	table.specs th {
+		vertical-align: bottom;
+		font-size: 1rem;
+	}
+	img.specs {
+		max-height: 600px;
+		min-height: 400px;
+	}
+
+	.column {
+		width: 45%;
+	}
+
+	.keyspecs {
+		float: right;
+	}
+}
+
+/* Ecrans larges */
+
+@media only screen and (min-width: 992px) {
+	.container {
+		width: 720px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }

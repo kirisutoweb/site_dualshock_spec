@@ -91,6 +91,7 @@ table.specs th {
 
 .overview {
 	display: inline-block;
+	padding-top: 20px;
 }
 
 .keyspecs {
@@ -139,7 +140,6 @@ table.specs th {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 0.9rem;
-	margin-top: 40px;
 	padding-bottom: 7px;
 }
 
@@ -169,13 +169,15 @@ table.specs th {
 	.column {
 		width: 45%;
 	}
-
+	.overview {
+		padding-top: 0px;
+	}
 	.keyspecs {
 		float: right;
 	}
 }
 
-/* Ecrans larges */
+/*  large Screens */
 
 @media only screen and (min-width: 992px) {
 	.container {
